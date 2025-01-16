@@ -1,5 +1,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    Cross-Origin-Resource-Policy = "cross-origin"
     X-Frame-Options = "ALLOW-FROM *"
     Content-Security-Policy = "frame-ancestors 'self' *"
